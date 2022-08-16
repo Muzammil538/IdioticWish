@@ -26,11 +26,6 @@ Form.addEventListener("submit", (e)=>{
     let razaList = ["raza","raza omam","syed raza"]
     if(afnanList.includes(checker.toLowerCase())){
       FormDiv.classList.add("clear");
-      loader.classList.remove("hidden");
-      window.addEventListener("load",function (){
-        
-        loader.className += " hidden";
-      });
         
         AfnanDiv.classList.add("wish");
         WishName.innerHTML = "Mohammad Afnan Pasha "+"@Pasha Bhai";
