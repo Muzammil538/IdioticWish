@@ -22,6 +22,7 @@
   width: 100px;
 }
 .preload.hidden{
+  width: 0px;
   animation: fadeOut 2s;
   animation-fill-mode: forwards;
 }
@@ -79,14 +80,14 @@
     
 }
 .crackers {
-    background-image: url('./Media/v823batch2-nunoon-06.jpg');
+    background-image: url('./Media/v823batch2-nunoon-06.jpeg');
     background-size: 100% auto;
     position: relative;
     height: 100%;
 }
 .container#WishAfnan.wish .img-box{
-    width: 200px;
-    height: 200px;
+    width: 200px !important;
+    height: 200px !important;
     box-shadow: 20px 25px 50px 10px grey;
     background-position:center -19px;
     background-size: cover;
@@ -95,7 +96,7 @@
     background-repeat: no-repeat;
 }
 .container#WishAfnan.wish .img-box.afnan {
-    background-image: url('./Media/Screenshot\ 2022-08-03\ at\ 12.23.49\ PM.png');
+    background-image: url('./Media/Screenshot\ 2022-08-03\ at\ 12.23.49\ PM.jpeg');
 }
 .container#WishAfnan.wish .img-box.raza {
     background-image: url('./Media/New\ Hijabi\ Girls\ DP\ for\ \ social\ Media\ Profile\ 2021\ \(2\).jpeg');
